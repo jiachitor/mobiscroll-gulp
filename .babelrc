@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    [
+      "transform-runtime"
+    ],
+    [
+      "transform-react-jsx",
+      {
+        "pragma": "m"
+      }
+    ]
+  ]
+}
